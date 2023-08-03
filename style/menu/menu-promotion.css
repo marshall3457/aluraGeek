@@ -1,0 +1,67 @@
+.menu__promotion{
+    height: 352px;
+    padding: 2rem 9.5rem;
+    display: flex;
+    background: url('/assets/Hero.png') no-repeat center / cover;
+    flex-direction: column;
+    justify-content: end;
+    box-sizing: border-box;
+}
+
+
+
+
+.menu__title{
+    color: var(--color-letra-blanco);
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.menu__subsection{
+    color: var(--color-letra-blanco);
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+.menu__button{
+    border: none;
+    padding: 1rem;
+    color: var(--color-letra-blanco);
+    background: var(--color-boton-azul);
+    width: max-content;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__button{
+        padding: 0.75rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .menu__promotion{
+        padding: 2rem;
+        background-image: url('/assets/Hero-tablet.png');
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .menu__promotion{
+        padding: 1rem;
+        background-image: url('/assets/Hero-mobile.png');
+        height: 192px;
+    }
+
+    .menu__title{
+        font-size: 1.375rem;
+    }
+
+    .menu__subsection{
+        font-size: 0.875rem;
+    }
+    
+}
+

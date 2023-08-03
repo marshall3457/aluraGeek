@@ -1,0 +1,39 @@
+.products__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products__title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.products__all{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.products__link{
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: var(--color-boton-azul);
+}
+
+@media screen and (max-width: 360px){
+    .products__title{
+        font-size: 1.375rem;
+    }
+
+    .products__link{
+        font-size: 0.875rem;
+    }
+
+    .product__link__arrow{
+        width: 16px;
+        height: 16px;
+    }
+
+    
+}

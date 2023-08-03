@@ -1,0 +1,95 @@
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 0 9.5rem;
+
+}
+
+.menu__container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.menu__login{
+    padding: 1rem;
+    width: 182px;
+    background: var(--color-fondo-blanco);
+    border: 1px solid var(--color-boton-azul);
+    font-size: 1rem;
+    color: var(--color-boton-azul);
+    height: 51px;
+}
+
+
+.menu__search{
+    display: flex;
+    padding: 0.5rem 1rem;
+    background: var(--color-de-fondo-input);
+    border-radius: 20px;
+    align-items: center;
+    width: calc((100vw - 19rem) - 743px);
+    box-sizing: border-box;
+    gap: 0.5rem;
+    max-width: 610px;
+    min-width: 272px;
+}
+
+.menu__input{
+    width: 100%;
+    background: var(--color-de-fondo-input);
+    border: none;
+    font-size: 0.875rem;
+    padding: 0;
+    outline: none;
+
+}
+
+.menu__input::placeholder {
+    color: var(--color-texto-input);
+}
+
+.menu__icono{
+    border: none;
+    background: var(--color-de-fondo-input);
+    padding: 0;
+    height: 24px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .menu__header{
+        padding: 0 2rem;
+        margin: 1rem 0;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .menu__login{
+        width: 166px;
+        padding: 0.75rem 1rem;
+        font-size: 0.875rem;
+        height: 40px;
+    }
+
+    .menu__logo{
+        width: 100px;
+        height: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    .menu__header{
+        padding: 0 1rem;
+    }
+
+    .menu__login{
+        width: 133px;
+    }
+
+}

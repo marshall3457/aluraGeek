@@ -1,0 +1,8 @@
+.rodapie__info{
+    padding: 2rem;
+    text-align: center;
+}
+
+.rodapie__info__title{
+    color: var(--color-letras);
+}
