@@ -1,0 +1,22 @@
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0;    
+    background-color: var(--color-de-fondo-input);
+}
+
+@media screen and (max-width: 768px) {
+    .login{
+        padding: 4rem 0;
+
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .login{
+        padding: 6rem 0;
+
+    }
+
+}

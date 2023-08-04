@@ -1,0 +1,99 @@
+.login__title{
+    color: var(--color-letras);
+    font-weight: bold;
+    line-height: 1.125rem;
+    margin-bottom: 0.6875rem;
+}
+
+.login__form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5625rem;
+    width: 423px;
+    height: 291px;
+
+}
+
+.login__button{
+    padding: 0.75rem 1rem;
+    background: var(--color-boton-azul);
+    color: var(--color-letra-blanco);
+    border: none;
+    font-size: 1.125rem;
+    width: 100%;
+    height: 100%;
+}
+
+.input__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.login__input{
+    box-sizing: border-box;
+    border: none;
+    color: var(--color-letras);
+    font-size: 1rem;
+    border-radius: 5px;
+    border-bottom: 1px solid var(--color-borde-bottom-input);
+    padding-left: 0.75rem;
+    height: 3.9375rem;
+    width: 100%;
+    font-family: 'Raleway';
+}
+
+.rodapie___input--height{
+    height: 5.125rem;
+    margin-bottom: 0;
+}
+
+.login__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    width: 100%;
+}
+
+.login__input::placeholder {
+    color: var(--color-texto-input);
+}
+
+.login__input:focus {
+    outline: none;
+    border-bottom: 3px solid var(--color-boton-azul);
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .login__form{
+        width: 275px;
+        height: 189px;
+        gap: 1rem;
+    }
+
+    .login__inputs{
+        gap: 1rem;
+    }
+
+    .login__input{
+        height: 2.5625rem;
+    }
+
+    .login__title{
+        margin-bottom: 0;
+    }
+
+    .login__button{
+        font-size: 0.875rem;
+        width: 109px;
+
+    }
+    
+}
