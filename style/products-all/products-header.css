@@ -1,0 +1,13 @@
+.products__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__button{
+    background-color: var(--color-boton-azul);
+    border: unset;
+    color: var(--color-letra-blanco);
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Raleway';
+}

@@ -1,0 +1,36 @@
+.products__all{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    column-gap: 1rem;
+    
+}
+
+.products__title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    line-height: normal;
+}
+
+.product__title{
+    font-size: 0.875rem;
+}
+
+.product__price{
+    font-weight: bold;
+}
+
+.product__id{
+    font-weight: unset;
+    font-size: 0.875rem;
+}
+
+.container__img{
+    height: 174px;
+}

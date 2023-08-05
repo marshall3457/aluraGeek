@@ -1,0 +1,7 @@
+.products{
+    padding: 4rem 9.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--color-de-fondo-input);
+}
