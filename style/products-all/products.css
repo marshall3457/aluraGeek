@@ -5,3 +5,9 @@
     gap: 1rem;
     background-color: var(--color-de-fondo-input);
 }
+
+@media screen and (max-width:768px){
+    .products{
+        padding: 2rem;
+    }
+}

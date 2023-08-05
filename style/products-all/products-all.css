@@ -6,16 +6,15 @@
     
 }
 
-.products__title{
-    font-size: 2rem;
-    font-weight: bold;
-}
 
 .product{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     line-height: normal;
+    width: calc((100% - 5rem) / 6);
+    max-width: 176px;
+    min-width: 140px;
 }
 
 .product__title{
@@ -33,4 +32,41 @@
 
 .container__img{
     height: 174px;
+    background: url('/assets/Skill.png') no-repeat center / cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    padding: 0.5rem 0.25rem;
+    box-sizing: border-box;
+    gap: 0.25rem;
+}
+
+.product__delete{
+    border: none;
+    background: transparent;
+}
+
+
+.product__edit{
+    border: none;
+    background: transparent;
+}
+
+@media screen and (max-width:768px){
+    .product{
+        width: calc((100% - 3rem) / 4); /* 100 de la pantalla menos los espacio dividio entre los espacios a desear */
+    }
+
+    .products__all{
+        row-gap: 1rem;
+    }
+}
+
+@media screen and (max-width:360px){
+    .product{
+        width: calc((100% - 1rem) / 2); /* 100 de la pantalla menos los espacio dividio entre los espacios a desear */
+        min-width: 120px;
+    }
+
+
 }
