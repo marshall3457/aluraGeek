@@ -22,8 +22,8 @@ const crearNuevaLinea = (imagen, nombre, precio,id) => {
     const btnDelete = linea.querySelector("[data-delete]");
     btnDelete.addEventListener("click", () => {
         const idDelete = btnDelete.id;
-        clientService.eliminarProducto(idDelete).then( respuesta => {
-            console.log(respuesta)
+        clientService.eliminarProducto(idDelete).then( () => {
+            location.reload();
         }).catch(err => alert("Ocurrio un error"))
     })
 
