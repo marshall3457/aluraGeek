@@ -33,10 +33,10 @@
         <section class="menu">
             <div class="menu__header">
                 <div class="menu__container">
-                    <img class="menu__logo" src="assets/Logo.png" alt="Logo de aluraGeek">
+                    <a href="index.html"><img src="assets/Logo.png" alt="logo de alura"></a>
                     <div class="menu__search">
                         <input class="menu__input" type="text" placeholder="¿Qué deseas buscar?">
-                        <button class="menu__icono"><img src="assets/Icone.png" alt="icono de busca">                        </button>
+                        <button class="menu__icono"><img src="assets/Icone.png" alt="icono de busca"></button>
                     </div>
                 </div>
             </div>
@@ -47,91 +47,10 @@
         <section class="products">
             <div class="products__header">
                 <h2 class="products__title">Todos los produtos</h2>
-                <button class="products__button">Agregar producto</button>
+                <button class="products__button" data-buttonEdit>Agregar producto</button>
             </div>
-            <div class="products__all">
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-                <div class="product">
-                    <div class="container__img">
-                        <button class="product__delete"><img src="assets/delete_button.png" alt="boton para eliminar"></button>
-                        <button class="product__edit"><img src="assets/edit-button.png" alt="boton para editar"></button>
-                    </div>
-                    <h2 class="product__title">Producto XYZ</h2>
-                    <h2 class="product__price">$ 60,00</h2>
-                    <h2 class="product__id">#111111</h2>
-                </div>
-
+            <div class="products__all" data-all>
+            
             </div>
 
         </section>
@@ -181,6 +100,6 @@
             </div>
         </section>
     </div>
-
+    <script type="module" src="/controllers/client.controller.js"></script>
 </body>
 </html>

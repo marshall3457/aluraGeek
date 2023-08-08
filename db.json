@@ -1,0 +1,159 @@
+{
+  "producto": [
+    {
+      "imagen": "/assets/Skill.png",
+      "categoria": "Star Wars",
+      "nombre": "taza",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "g"
+    },
+    {
+      "imagen": "/assets/Skill1.png",
+      "categoria": "Star Wars",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "a"
+    },
+    {
+      "imagen": "/assets/Skill2.png",
+      "categoria": "Star Wars",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "b"
+    },
+    {
+      "imagen": "/assets/Skill3.png",
+      "categoria": "Star Wars",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    },
+    {
+      "imagen": "/assets/Skill4.png",
+      "categoria": "Star Wars",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "a"
+    },
+    {
+      "imagen": "/assets/Skill5.png",
+      "categoria": "Star Wars",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "b"
+    },
+    {
+      "imagen": "/assets/consola.png",
+      "categoria": "Consolas",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    },
+    {
+      "imagen": "/assets/consola1.png",
+      "categoria": "Consolas",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    },
+    {
+      "imagen": "/assets/consola2.png",
+      "categoria": "Consolas",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "a"
+    },
+    {
+      "imagen": "/assets/consola3.png",
+      "categoria": "Consolas",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "b"
+    },
+    {
+      "imagen": "/assets/consola4.png",
+      "categoria": "Consolas",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    },
+    {
+      "imagen": "/assets/consola5.png",
+      "categoria": "Consolas",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    }, 
+    {
+      "imagen": "/assets/diversos.png",
+      "categoria": "Diversos",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "a"
+    },
+    {
+      "imagen": "/assets/diversos1.png",
+      "categoria": "Diversos",
+      "nombre": "Product c",
+      "precio": "$60000",
+      "descripcion": "Una bonita figura",
+      "id": "b"
+    },
+    {
+      "imagen": "/assets/diversos2.png",
+      "categoria": "Diversos",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    },
+    {
+      "imagen": "/assets/diversos3.png",
+      "categoria": "Diversos",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    },
+    {
+      "imagen": "/assets/diversos4.png",
+      "categoria": "Diversos",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    },
+    {
+      "imagen": "/assets/diversos5.png",
+      "categoria": "Diversos",
+      "nombre": "taza 2",
+      "precio": "$30000",
+      "descripcion": "fdsfds",
+      "id": "c"
+    }
+
+  ],
+  "admin": [
+    {
+      "email": "admin@gmail.com",
+      "password": "sdsdsdsds"
+    },
+    {
+      "email": "admin2@gmail.com",
+      "password": "dadwweqdsa"
+    }
+  ]
+}

@@ -23,6 +23,7 @@
     font-size: 1.125rem;
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .input__container {

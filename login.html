@@ -31,7 +31,7 @@
         <section class="menu">
             <div class="menu__header">
                 <div class="menu__container">
-                    <img class="menu__logo" src="assets/Logo.png" alt="Logo de aluraGeek">
+                    <a href="index.html"><img src="assets/Logo.png" alt="logo de alura"></a>
                     <div class="menu__search">
                         <input class="menu__input" type="text" placeholder="¿Qué deseas buscar?">
                         <button class="menu__icono"><img src="assets/Icone.png" alt="icono de busca">                        </button>
@@ -42,18 +42,14 @@
         </section>
 
         <section class="login">
-            <form class="login__form">
+            <form class="login__form" data-form>
                 <h2 class="login__title">Iniciar Sesión</h2>
                 <div class="login__inputs">
                     <div class="input__container">
-
-                        <input class="login__input" type="email" required placeholder="Escriba su correo electrónico">
-
+                        <input class="login__input" type="email" required placeholder="Escriba su correo electrónico" data-email>
                     </div>
                     <div class="input__container">
-
-                        <input class="login__input" type="password" required placeholder="Escriba su contraseña">
-
+                        <input class="login__input" type="password" required placeholder="Escriba su contraseña" data-password>
                     </div>
                 </div>
                 <button class="login__button" type="submit">Entrar</button>
@@ -105,6 +101,6 @@
             </div>
         </section>
     </div>
-
+    <script type="module" src="/controllers/login.controller.js" ></script>
 </body>
 </html>

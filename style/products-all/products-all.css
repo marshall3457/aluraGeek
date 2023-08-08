@@ -32,13 +32,15 @@
 
 .container__img{
     height: 174px;
-    background: url('/assets/Skill.png') no-repeat center / cover;
     display: flex;
     align-items: flex-start;
     justify-content: end;
     padding: 0.5rem 0.25rem;
     box-sizing: border-box;
     gap: 0.25rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .product__delete{

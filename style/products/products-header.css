@@ -21,6 +21,14 @@
     color: var(--color-boton-azul);
 }
 
+
+@media screen and (max-width: 768px){
+    .products__all{
+        margin-right: 0;
+    }
+    
+}
+
 @media screen and (max-width: 360px){
     .products__title{
         font-size: 1.375rem;

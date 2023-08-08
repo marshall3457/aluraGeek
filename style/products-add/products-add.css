@@ -1,0 +1,21 @@
+.products__add{
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-de-fondo-input);
+}
+
+
+@media screen and (max-width:768px){
+    .products__add{
+        padding: 2rem;
+        justify-content: unset;
+    }
+
+}
+@media screen and (max-width:360px){
+    .products__add{
+        padding: 1rem;
+    }
+
+}
