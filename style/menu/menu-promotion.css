@@ -2,7 +2,7 @@
     height: 352px;
     padding: 2rem 9.5rem;
     display: flex;
-    background: url('/assets/Hero.png') no-repeat center / cover;
+    background: url('../../assets/Hero.png') no-repeat center / cover;
     flex-direction: column;
     justify-content: end;
     box-sizing: border-box;
@@ -42,7 +42,7 @@
 
     .menu__promotion{
         padding: 2rem;
-        background-image: url('/assets/Hero-tablet.png');
+        background-image: url('../../assets/Hero-tablet.png');
     }
     
 }
@@ -51,7 +51,7 @@
 
     .menu__promotion{
         padding: 1rem;
-        background-image: url('/assets/Hero-mobile.png');
+        background-image: url('../../assets/Hero-mobile.png');
         height: 192px;
     }
 
