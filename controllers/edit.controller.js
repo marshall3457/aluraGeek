@@ -2,6 +2,11 @@ import { clientService } from "../service/client-service.js";
 
 const formulario = document.querySelector("[data-form]");
 
+const btnRedirrecion = document.querySelector("[data-buttonAdmin]");
+btnRedirrecion.addEventListener("click", () => {
+    window.location.href = "products.html";
+}, false);
+
 
 const obtenerInformacion = async () => {
     const url = new URL(window.location);

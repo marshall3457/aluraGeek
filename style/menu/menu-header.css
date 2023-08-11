@@ -106,14 +106,64 @@
 @media screen and (max-width: 360px) {
     .menu__header{
         padding: 0 1rem;
+        flex-wrap: nowrap;
+        gap: 0;
     }
 
     .menu__login{
         width: 133px;
+        position: absolute;
+        left: 63%;
+        transform: translate(-50%);
+        padding: 0.75rem 0;
     }
 
     .menu__administrador{
         width: 133px;
     }
+
+
+    .menu__container{
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .menu__logo{
+        width: 100px;
+    }
+
+    .menu__search{
+        min-width: 0;
+        padding: 0;
+        width: max-content;
+    }
+
+    .menu__icono{
+        background-color: var(--color-fondo-blanco);
+    }
+
+    .menu__input{
+        display: none;
+    }
+
+    .menu__container{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .menu__input--ampliado{
+        width: 100vw;
+        display: block;
+    }
+
+    .menu__search--ampliado{
+        padding: 0.5rem 1rem;   
+    }
+
+    .menu__icono--ampliado{
+        background: var(--color-de-fondo-input);
+    }
+
+
 
 }

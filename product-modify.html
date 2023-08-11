@@ -31,15 +31,14 @@
         <section class="menu">
             <div class="menu__header">
                 <div class="menu__container">
-                    <a href="index.html"><img src="assets/Logo.png" alt="logo de alura"></a>
+                    <a href="index.html"><img class="menu__logo" src="assets/Logo.png" alt="logo de alura"></a>
                     <div class="menu__search">
                         <input class="menu__input" type="text" placeholder="¿Qué deseas buscar?">
-                        <button class="menu__icono"><img src="assets/Icone.png" alt="icono de busca">                        </button>
+                        <button class="menu__icono" data-search><img src="assets/Icone.png" alt="icono de busca"></button>
                     </div>
                 </div>
-
-                <button class="menu__administrador" data-buttonAdmin>Menú Administrador</button>
-
+            
+                <button class="menu__login" data-buttonAdmin>Menú Administrador</button>
             </div>
 
         </section>
@@ -126,6 +125,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>     
     <script type="module" src="controllers/edit.controller.js"></script>
+    <script src="controllers/control.search.js"></script>
 
 </body>
 </html>
