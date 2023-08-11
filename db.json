@@ -6,7 +6,7 @@
       "nombre": "taza",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "g"
+      "id": "q"
     },
     {
       "imagen": "assets/Skill1.png",
@@ -14,7 +14,7 @@
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "a"
+      "id": "w"
     },
     {
       "imagen": "assets/Skill2.png",
@@ -22,15 +22,15 @@
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "b"
+      "id": "e"
     },
     {
       "imagen": "assets/Skill3.png",
       "categoria": "Star Wars",
-      "nombre": "taza 2",
+      "nombre": "probando",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "r"
     },
     {
       "imagen": "assets/Skill4.png",
@@ -38,7 +38,7 @@
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "a"
+      "id": "t"
     },
     {
       "imagen": "assets/Skill5.png",
@@ -46,7 +46,7 @@
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "b"
+      "id": "y"
     },
     {
       "imagen": "assets/consola.png",
@@ -54,7 +54,7 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "u"
     },
     {
       "imagen": "assets/consola1.png",
@@ -62,7 +62,7 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "i"
     },
     {
       "imagen": "assets/consola2.png",
@@ -70,7 +70,7 @@
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "a"
+      "id": "o"
     },
     {
       "imagen": "assets/consola3.png",
@@ -78,7 +78,7 @@
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "b"
+      "id": "p"
     },
     {
       "imagen": "assets/consola4.png",
@@ -86,7 +86,7 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "a"
     },
     {
       "imagen": "assets/consola5.png",
@@ -94,15 +94,15 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
-    }, 
+      "id": "s"
+    },
     {
       "imagen": "assets/diversos.png",
       "categoria": "Diversos",
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "a"
+      "id": "d"
     },
     {
       "imagen": "assets/diversos1.png",
@@ -110,7 +110,7 @@
       "nombre": "Product c",
       "precio": "$60000",
       "descripcion": "Una bonita figura",
-      "id": "b"
+      "id": "f"
     },
     {
       "imagen": "assets/diversos2.png",
@@ -118,7 +118,7 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "g"
     },
     {
       "imagen": "assets/diversos3.png",
@@ -126,7 +126,7 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "h"
     },
     {
       "imagen": "assets/diversos4.png",
@@ -134,7 +134,7 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "j"
     },
     {
       "imagen": "assets/diversos5.png",
@@ -142,9 +142,8 @@
       "nombre": "taza 2",
       "precio": "$30000",
       "descripcion": "fdsfds",
-      "id": "c"
+      "id": "k"
     }
-
   ],
   "admin": [
     {
